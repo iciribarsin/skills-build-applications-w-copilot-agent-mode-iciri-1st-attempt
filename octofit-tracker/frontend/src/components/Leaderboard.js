@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Leaderboard = () => {
   const [leaderboard, setLeaderboard] = useState([]);
-  const endpoint = 'https://humble-palm-tree-7vq7wrp7rj5v3pr55.github.dev/api/leaderboard/';
+  const endpoint = 'https://iciribarsin-8000.app.github.dev/api/leaderboard/';
 
   useEffect(() => {
     fetch(endpoint)

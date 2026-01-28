@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Workouts = () => {
   const [workouts, setWorkouts] = useState([]);
-  const endpoint = 'https://humble-palm-tree-7vq7wrp7rj5v3pr55.github.dev/api/workouts/';
+  const endpoint = 'https://iciribarsin-8000.app.github.dev/api/workouts/';
 
   useEffect(() => {
     fetch(endpoint)

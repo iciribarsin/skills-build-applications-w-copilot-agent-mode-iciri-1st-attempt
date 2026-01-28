@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Teams = () => {
   const [teams, setTeams] = useState([]);
-  const endpoint = 'https://humble-palm-tree-7vq7wrp7rj5v3pr55.github.dev/api/teams/';
+  const endpoint = 'https://iciribarsin-8000.app.github.dev/api/teams/';
 
   useEffect(() => {
     fetch(endpoint)
